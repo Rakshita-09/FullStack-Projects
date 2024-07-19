@@ -1,0 +1,184 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:cursive;
+    background-color: #181818;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-image: url('https://images.pexels.com/photos/36478/amazing-beautiful-beauty-blue.jpg?cs=srgb&dl=pexels-pixabay-36478.jpg&fm=jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    
+    
+}
+.container {
+    
+    
+    margin: auto;
+  width: 70%;
+
+  border:#185689;
+  padding: 10px;
+    max-width: 500px;
+    margin: 20px auto;
+    padding-top : 20px;
+    backdrop-filter: blur(10px) saturate(70%);
+    -webkit-backdrop-filter: blur(10px) saturate(70%);
+    
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    gap: 20px;
+    margin: auto;
+
+    
+}
+
+.form-control {
+    position: relative;
+    color: #0d0c0c;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #6cb2eb;
+}
+
+small {
+    display: block;
+    margin-top: 5px;
+
+    color: #111010;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+}
+.btn {
+    background-color:rgb(23, 123, 89);
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family:cursive;
+    font-size: 1em;
+    font-size: 22px;
+    line-height: 1em;
+    margin: 15px 40px;
+    outline: none;
+    padding: 12px 40px 10px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .btn:before,
+  .btn:after {
+    border-color: transparent;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+    border-style: solid;
+    border-width: 0;
+    content: '';
+    height: 24px;
+    position: absolute;
+    width: 24px;
+  }
+  
+  .btn:before {
+    border-color: black;
+    border-top-width: 2px;
+    left: 0px;
+    top: -5px;
+  }
+  
+  .btn:after {
+    border-bottom-width: 2px;
+    border-color: black;
+    bottom: -5px;
+    right: 0px;
+  }
+  
+  .btn:hover,
+  .btn.hover {
+    background-color: #d17997;
+  }
+  
+  .btn:hover:before,
+  .btn.hover:before,
+  .btn:hover:after,
+  .btn.hover:after {
+    height: 100%;
+    width: 100%;
+  }
+  h1{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .blur-heading {
+    font-size: 2em;
+    filter: blur(10px);
+    animation: blurToClear 3s forwards;
+    text-align: center;
+}
+
+@keyframes blurToClear {
+    0% {
+        filter: blur(10px);
+    }
+    100% {
+        filter: blur(0);
+    }
+}
+
